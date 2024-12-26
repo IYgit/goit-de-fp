@@ -137,3 +137,5 @@ mysql-connector-j-9.1.0/
 test.py
 "\320\227\320\262\321\226\321\202.docx"
 *.docx
+
+.spyproject/
