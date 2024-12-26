@@ -27,7 +27,7 @@ db_config = {
 
 db_properties = {
     "user": "neo_data_admin",
-    "password": "Proyahaxuqithab9oplp",
+    "password": "",
     "driver": "com.mysql.cj.jdbc.Driver"
 }
 

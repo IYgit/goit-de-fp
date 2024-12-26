@@ -27,7 +27,7 @@ class KafkaConfig:
         return cls(
             bootstrap_servers=[os.getenv("KAFKA_BOOTSTRAP_SERVERS", "77.81.230.104:9092")],
             username=os.getenv("KAFKA_USERNAME", "admin"),
-            password=os.getenv("KAFKA_PASSWORD", "VawEzo1ikLtrA8Ug8THa"),
+            password=os.getenv("KAFKA_PASSWORD", ""),
             security_protocol=os.getenv("KAFKA_SECURITY_PROTOCOL", "SASL_PLAINTEXT"),
             sasl_mechanism=os.getenv("KAFKA_SASL_MECHANISM", "PLAIN"),
             topic=os.getenv("KAFKA_TOPIC", "greenmoon_end_enriched_athlete_avg"),
